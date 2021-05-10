@@ -9,7 +9,7 @@
    };
  xhr.send();
  }
- getfile("data.json",function(text) {
+ getfile("../json/data.json",function(text) {
    var data = JSON.parse(text);
    console.log(data);
    details(data.basics);
