@@ -9,7 +9,7 @@
    };
  xhr.send();
  }
- getfile("../json/data.json",function(text) {
+ getfile("https://github.com/swamykankipati/Resume/blob/master/json/data.json",function(text) {
    var data = JSON.parse(text);
    console.log(data);
    details(data.basics);
